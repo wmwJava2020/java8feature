@@ -10,6 +10,11 @@ public class Employee {
     private int age;
     private String gender;
 
+    public Employee(int empId, double salary) {
+        this.empId = empId;
+        this.salary = salary;
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -100,4 +105,5 @@ public class Employee {
                 ", role=" + role +
                 '}';
     }
+
 }

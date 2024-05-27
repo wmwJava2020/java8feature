@@ -15,9 +15,9 @@ public class EmployeeData {
         employees.add(new Employee(1005,"Haile","Janet",5000,"MNGT",49,"Female",Role.PRESIDENT));
         employees.add(new Employee(1006,"Say","Jack",2500,"HR",29,"Male",Role.ADMIN));
         employees.add(new Employee(1007,"Willy","Andy",1100,"HR",45,"Female",Role.MANAGER));
-        employees.add(new Employee(1008,"Drew","Philly",8500,"Sales",32,"Male",Role.ASSOCIATE));
+        employees.add(new Employee(1008,"Drew","Philly",8000,"Sales",32,"Male",Role.ASSOCIATE));
         employees.add(new Employee(1009,"Alexi","Json",1900,"IT",36,"Female",Role.MANAGER));
-        employees.add(new Employee(10010,"Jackson","Matt",5500,"TRAN",55,"Male",Role.SUPERVISOR));
+
 
         return employees;
     }
